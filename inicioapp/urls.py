@@ -17,8 +17,13 @@ Including another URLconf
 from django.urls import path
 from inicioapp import views
     
-    
+
+  
 urlpatterns = [
     path('',views.vista_cafe),
+    path('historia-del-cafe',views.historia_del_cafe),
+    path('tipo-de-cafe',views.tipo_de_cafe),
+    path('about-me',views.about_me),
+    path('home',views.home),
     
  ]
